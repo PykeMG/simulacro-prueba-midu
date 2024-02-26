@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+main{
+  width: full;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2{
+    margin-bottom: 2rem;
+  }
+
+  section{
+    width: full;
+    height: full;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 3rem;
+
+
+    img{
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+}
